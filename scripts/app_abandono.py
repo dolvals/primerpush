@@ -1,4 +1,4 @@
-#Script para analizar abandono de clientes
-#Todo por desarrollar
+# Script para analizar abandono de clientes
+# Todo por desarrollar pp
 
-df['segmento_valor'] = pd.qcut(df['valor'], 3, labels=['bajo', 'medio', 'alto'])
+df["segmento_valor"] = pd.qcut(df["valor"], 3, labels=["bajo", "medio", "alto"])
